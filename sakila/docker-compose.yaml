@@ -1,0 +1,16 @@
+version: "3.5"
+
+networks: 
+    net1:
+        ipam: 
+            driver: default
+            config: 
+            - subnet: 182.18.0.0/24
+
+services: 
+    sakila-db:
+        build: .
+        image: mahendrshinde/mysql-sample:sakila
+        networks: 
+            net1:
+                ipv4_address: 182.18.0.5
