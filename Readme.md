@@ -5,7 +5,9 @@ I have included TWO sample databases:
 1. employees (HR Database) refer to [docker-compose](./employees/docker-compose.yaml) 
 2. sakila (Sakila Movies Database) refer to [docker-compose](/sakila/docker-compose.yaml)
 
-### For Lazy people
+Feel free to modify my `Dockerfile` or `docker-compose` file to make your custom mysql database with sample database.
+
+### For Lazy people (skip building images)
 
 You can download and use pre-built images from [docker hub](https://hub.docker.com/repository/docker/mahendrshinde/mysql-sample).
 
